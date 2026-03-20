@@ -5,7 +5,6 @@ parrafo normal
 ----------------
 # Imagenes y Gif 
 
-![Imagen](https://i.pinimg.com/736x/4a/46/1f/4a461f64d14b6974ec8b1028c1fc37bc.jpg)
 ![Gif](https://i.giphy.com/8OgZyXwljMPo1Cl4dg.webp)
 ![MiViejo](https://i.pinimg.com/1200x/5f/62/e5/5f62e503da6f4f5c23794312c04360fc.jpg)
 

@@ -6,7 +6,7 @@
 | Habilidad | Destreza |
 | :---------: | :--------: |
 | Dibujo    | 7/10     |
-| Escritura literaria | 7/10
+| Escritura literaria | 7/10 |
 | Idiomas | 5/10 |
 | Fotografia | 8/10 |
 

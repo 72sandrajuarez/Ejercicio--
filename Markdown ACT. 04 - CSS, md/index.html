@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT4 U3- CSS, HTML MD</title>
+
+   <style>
+        body {
+            background-color: #ffd9ca;
+        }
+
+        h1 {
+            color:oklch(20.536% 0.08275 350.578 / 0.801);
+            font-size: 55px;
+            background: linear-gradient(135deg, #ac6c41e8 0%, hwb(22 28% 27%) 100%);}
+
+    </style>
+</head>
+<body>
+    
+
+    <h1>ACT3 U3 - <i>CSS: Hojas de Estilo en Cascada</i></h1>
+
+    <h2>Introducción <i>(●'◡'●)</i></h2>
+    <hr>
+    <img src="Imagenes sobre CSS/Introduccion CSS.png" alt="HTML1" width="600" height="200">
+    <p>
+        En el siguiente texto se tocaran temas relacionados a <b>CSS</b>, que es básicamente <i>lo que le da vida y estilo a las páginas web</i>. 
+        Antes de que existiera esto, todo el diseño se hacía directamente con <b>HTML</b>, lo cual era bastante limitado y tedioso. 
+        Por suerte, ahora podemos <b><i>separar el contenido de la presentación</i></b>, y eso hace todo mucho más fácil y ordenado pues 
+        comparado con el pasado, en la actualidad esto se considera <b>mucho menos conflictivo y tedioso</b> que antes. 
+        Aunque el proceso para llegar a nuestra realidad actual no fue menos difícil de lo que parece, pues antes de la estandarización del CSS 
+        <i>varios baches se interpusieron en el camino</i>.
+    </p>
+
+    <h2>Síntesis ^.^</h2>
+    <hr>
+    <img src="Imagenes sobre CSS/Sintesis CSS.png" alt="HTML1" width="600" height="200">
+    <p>
+        Para hablar de este tema, primero hay que establecer de manera clara que es <b>CSS</b>. Ahora bien, 
+        <b><i>CSS significa "Hojas de Estilo en Cascada"</i></b>, y hay que recalcar, <i>no es un lenguaje de programación ni de marcado</i>, 
+        en cambio es <b>un lenguaje de hojas de estilo</b>. Su función es aplicar diseños de manera selectiva a los elementos de un documento HTML. 
+        Antes de que existiera CSS, todo el formato se incrustaba directamente en el código HTML con etiquetas o atributos. 
+        Esto provocaba que el código se volviera <b>grande y difícil de mantener</b>. Con CSS solo se escribe una regla y se aplica automáticamente 
+        a todos los títulos, lo que lo hace más <i>limpio y fácil de usar</i>.
+    <br>
+        Ahora bien, la historia de CSS es <b><i>bastante interesante</i></b>. Las hojas de estilo como concepto aparecieron alrededor de los años 70, 
+        pero el verdadero detonante fue <b>la guerra de navegadores de los 90</b>. <i>Netscape e Internet Explorer competían ferozmente</i> 
+        y cada uno interpretaba el código HTML de manera diferente: una misma página se veía bien en uno y horrible en el otro. 
+        El W3C propuso crear un lenguaje de estilos específico para HTML para resolver este caos. Ahí surgieron dos propuestas iniciales. 
+        Entre finales de 1994 y 1995, <b>Lie y Bos unieron lo mejor de cada una y crearon CSS</b>. En 1995 el W3C lo incorporó a su grupo de trabajo 
+        de HTML, y a finales de 1996 publicó la primera recomendación oficial: <i>"CSS nivel 1"</i>. En 1997 el W3C separó el trabajo en tres grupos. 
+        Ese mismo año, Microsoft lanzó Internet Explorer 3.0 con soporte reducido y lleno de errores. De hecho, el primer navegador con 
+        <b><i>soporte completo de CSS 1 fue IE 5 para Mac</i></b> hasta el año 2000.
+    <br>
+        El 12 de mayo de 1998 se publicó <b>"CSS nivel 2"</b>, una versión mucho más ambiciosa con <i>selectores más avanzados</i>, mejor manejo de tablas, 
+        efectos visuales, nuevos modelos de cajas, tipos de medios y hasta <b><i>estilos auditivos</i></b>. Pero CSS 2 tenía errores, así que en 2004 
+        sacaron la versión <b>CSS 2.1</b> con las correcciones. En 2011 llegó <b>CSS3</b>, la especificación más completa hasta hoy, trabajada durante 
+        más de 10 años. Entre las nuevas funcionalidades están: <i>colores y fondos más amplios</i>, bordes con imágenes y degradados, 
+        sombras para cajas y textos, esquinas redondeadas, consultas de medios, <b><i>Flexbox y Grid</i></b>, animaciones, transformaciones 2D y 3D, 
+        y mucho más. Al principio los navegadores tardaron bastante tiempo en darle soporte completo, y hubo años de usar prefijos. 
+        Hoy ya <b>casi todos los navegadores modernos lo soportan bien</b>.
+    <br>
+        Alejándonos de su historia y hablando respecto a la <b>sintaxis de CSS</b>, una regla CSS se compone de un <i>selector</i> seguido de 
+        declaraciones entre llaves. Cada declaración tiene una <b>propiedad</b> y un <b>valor</b> separados por dos puntos, y al final se usa punto y coma. 
+        Los selectores pueden ser por elemento, por clase, por identificador, o combinaciones. También existen <b><i>pseudoclases y pseudoelementos</i></b>.
+    <br>
+        Por otro lado hay <b>tres formas de aplicar CSS</b>. La primera es el <i>CSS interno</i>: se pone estilo en la cabecera del HTML, sirve para una sola página. 
+        La segunda es el <b>CSS externo</b>: todo en un archivo separado y se enlaza, es <b><i>lo más recomendable para sitios grandes</i></b> porque cambias todo el sitio 
+        editando un solo archivo. La tercera es el <i>CSS en línea</i>: directo en la etiqueta, útil para pruebas rápidas pero difícil de mantener si se abusa. 
+        Finalmente, existen los <b>combinadores</b> que explican relaciones entre selectores.
+    </p>
+
+    <h2>Reflexión <i>(≧∇≦)ﾉ</i></h2>
+    <hr>
+    <p>
+        La realidad es que <b>CSS parece ser muy útil</b>, puesto que les brinda una apariencia dinámica a las páginas y las hace verse 
+        <i>limpias, legibles y ordenadas</i>. Sin embargo, lo que más me parece beneficioso es que <b><i>separa el diseño del contenido</i></b>, 
+        o sea, puedes cambiar toda la apariencia de un sitio solo editando un archivo o apartado, sin tener que modificar cada página una por una, 
+        <b>ahorrando mucho tiempo</b>. También está la variedad que hay dentro de tantas opciones de personalización, como sombras, bordes redondeados 
+        o fondos degradados, que antes del CSS eran <i>muy difíciles de lograr</i>. Aunque la sintaxis del mismo puede parecer algo compleja para 
+        quienes recién empiezan, <b><i>aprender sobre CSS brinda tantos beneficios</i></b> a una web que esto último puede fácilmente ignorarse.
+    </p>
+    <img src="Imagenes sobre CSS/Reflexion CSS.png" alt="HTML1" width="600" height="200">
+    <h2>Conclusión <i>(oﾟvﾟ)ノ</i></h2>
+    <hr>
+    <p>
+        En resumen, <b>CSS es una herramienta fundamental</b> para cualquier persona que quiera hacer páginas web atractivas y funcionales, 
+        porque permite <i>separar el estilo del contenido</i>, facilita el mantenimiento del sitio y ha evolucionado mucho desde los años 70 
+        hasta llegar a <b>CSS3</b>, que hoy en día nos da un control enorme sobre el diseño. Aunque al principio los navegadores parecía 
+        no se ponían de acuerdo, ahora se considera que <b><i>ya casi todos lo soportan bien</i></b>, y eso hace que la experiencia de navegar sea 
+        mucho más uniforme, así como la de crear dichas páginas web.
+    </p>
+    <img src="Imagenes sobre CSS/Conclusion CSS.png" alt="HTML1" width="600" height="200">
+</body>
+</html>

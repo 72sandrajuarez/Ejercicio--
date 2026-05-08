@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ACT5 U3 - HTML_Por Sandra juarez </title>
+    <style>
+    
+    body {
+            background-color: hsl(244, 38%, 66%);
+        }
+
+
+        h2 {text-align: center;
+
+        }
+
+        h1 {
+            color:lab(100% 0.01 -0.01 / 0.801);
+            font-size: 55px;
+            background: linear-gradient(135deg, oklab(57.04% 0.08954 0.04102 / 0.91) 0%, hsl(298, 38%, 27%) 100%);
+            text-align: center;
+        }
+
+        p {text-align: center;
+
+        }
+
+        img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        .lineas {
+            border: 3px solid black;
+            padding: 20px;
+            width: 50px auto;
+            margin: 20px;
+            }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>ACT5 U3 - JavaScript <i>ヾ(⌐■_■)ノ♪</i></h1>
+    <div class="lineas">
+    <h2>Introducción <i>(●'◡'●)</i></h2>
+    <hr>
+    <img src="Imagenes sobre JavaScript/Introducción JavaScript.png" alt="HTML1" width="600" height="200"> 
+    <p>
+        En el siguiente texto voy a hablar sobre <b>JavaScript</b>, que es básicamente <i>el lenguaje que hace que las páginas web no sean solo texto y colores estáticos</i>. <br>
+        Mientras que <b>HTML</b> da estructura y <b>CSS</b> da estilo, <b><i>JavaScript es el que permite las interacciones dinámicas</i></b>: que un botón haga algo, <br>
+        que un mapa se mueva, que un formulario te avise si escribiste mal algo o que una imagen sea interactiva. <br>
+        Es <b>lo que está detrás de lo que llamamos interactividad</b>. <br>
+    </p>
+
+    <h2>Síntesis <i>(‾◡◝)</i></h2>
+    <hr>
+    <img src="Imagenes sobre JavaScript/Síntesis JavaScript.png" alt="HTML1" width="600" height="200">
+    <p>
+        Ahora bien, <b>JavaScript</b> es un lenguaje de programación o de secuencias de comandos que sirve para <i>implementar funciones complejas en páginas web</i>. <br>
+        Fue creado para dotar a las páginas de capacidades interactivas sin necesidad de estar comunicándose con el servidor a cada rato, <br>
+        lo que <b>ahorra tiempo y recursos</b>. Con JavaScript puedes hacer cosas como: actualizar contenido dinámicamente, crear mapas interactivos, <br>
+        animar <i>gráficos 2D/3D</i>, controlar multimedia (videos, audios), y una de las más comunes: <b>validar formularios</b> para asegurarte de que <br>
+        el usuario puso información válida antes de enviarla. Es un lenguaje <b><i>interpretado, orientado a objetos, algo tipado y dinámico</i></b>. <br>
+        En resumen, es <b>el único lenguaje de programación que los navegadores entienden de forma nativa</b>. <br>
+        <br><br>
+        Por otro lado, la historia de JavaScript es <b>interesante</b>: A principios de los 90, el internet era algo lento (28.8 kbps) y apenas se empezaban <br>
+        a hacer formularios más complejos. Como la conexión era una mala, surgió la necesidad de un lenguaje que se ejecutara directamente en el navegador <br>
+        del usuario, sin tener que enviar todo al servidor. En <b><i>1995</i></b>, <i>Brendan Eich creó LiveScript</i> para Netscape 2.0. Pero cuando Netscape <br>
+        hizo una alianza con Sun Microsystems, cambiaron el nombre a <b>JavaScript</b> por razones de marketing (no tiene relación con Java). <br>
+        Casi al mismo tiempo, Microsoft lanzó <i>JScript</i>, que era básicamente similar a una copia con otro nombre para evitar problemas legales. <br>
+        En <b>1997</b>, Netscape decidió estandarizar el lenguaje y envió la especificación JavaScript 1.1 al organismo ECMA, que creó el comité TC39 <br>
+        para definir el estándar <b><i>ECMAScript</i></b> (el nombre oficial del lenguaje). Desde entonces han salido varias versiones: ECMAScript 1 (1997), <br>
+        luego 2, 3, 5, y la más famosa, <b>ECMAScript 6 (2015)</b> que trajo muchas mejoras como las clases, let, const, etc. <br>
+        Hoy en día, <i>todos los navegadores modernos interpretan JavaScript sin problemas</i>. <br>
+        <br><br>
+        En cuanto a la <b>sintaxis básica</b>, se usa la etiqueta <b><i>script</i></b> para escribir o enlazar código JavaScript dentro del HTML. <br>
+        Puede ir en el head o en el body. Un ejemplo bien sencillo sería document.write("¡Hola Mundo!") para escribir algo en la página. <br>
+        Los conceptos fundamentales son parecidos a cualquier lenguaje de programación: <b>variables</b> (se declaran con <i>var</i>, aunque ahora se usa más <i>let</i> <br>
+        y <i>const</i>), <b>condicionales</b> (<i>if...else</i> para tomar decisiones), <b>operadores lógicos</b> (<i>&&, ||, !</i> para condiciones más complejas), <br>
+        <b>bucles</b> (<i>for</i> y <i>do...while</i> para repetir acciones), <b>funciones</b> (<i>function algo() { ... }</i> para reutilizar código), <br>
+        <b>eventos</b> (como <i>onclick</i> o <i>onmouseover</i> para reaccionar a lo que hace el usuario), y también <b><i>objetos y clases</i></b>. Ahora bien, un <br>
+        objeto en JavaScript es como una colección de propiedades, por ejemplo: var miAuto = { marca: "Seat", modelo: "127", año: 1972}. <br>
+        <br><br>
+        Por otro lado, los <b>eventos</b> son muy importantes porque es así como la página reacciona. Algunos ejemplos comunes son: <br>
+        <i>onclick</i> (cuando haces clic), <i>onmouseover</i> (cuando el cursor pasa por encima), <i>onkeydown</i> (cuando presionas una tecla), <br>
+        <i>onchange</i> (cuando cambias algo en un formulario), y <i>onload</i> (cuando la página termina de cargar). <br>
+        Con estos eventos puedes lanzar funciones personalizadas y hacer que la página sea <b>realmente interactiva</b>. <br>
+        También existe el control de flujo con estructuras como <b>switch</b> (para evaluar múltiples casos), <b>break</b> (para salir de un bucle o switch), <br>
+        <b>continue</b> (para saltar a la siguiente iteración), <b>try...catch</b> (para manejar errores sin que todo explote), <br>
+        y <b>throw</b> (para lanzar tus propios errores). Entre las iteraciones, además del <i>for clásico</i>, están <br>
+        <b><i>for...in</i></b> (para recorrer propiedades de un objeto) y <b><i>for...of</i></b> (para recorrer elementos de un arreglo). <br>
+        También existe <i>do...while</i> que ejecuta al menos una vez porque la condición se evalúa al final, y <i>while</i> normal que evalúa al principio. <br>
+        Por último, hoy en día también se usan <b>import</b> y <b>export</b> para organizar el código en diferentes archivos, <br>
+        aunque se considera algo más avanzado. <br>
+    </p>
+
+    <h2>Reflexión <i>~(￣▽￣)~*</i></h2>
+    <hr>
+    
+    <p>
+        La realidad es que <b>JavaScript me parece una herramienta bastante útil</b>, ya que es lo que realmente hace que una página web se sienta <i>viva</i>. <br>
+        Con JS puedes hacer que algo pase al hacer clic, o cambiar contenido sin recargar la página, incluso agregar formularios. <br>
+        Tiene <b>bastante facilidad</b> al no necesitar instalar nada especial, solo es necesario abrir el navegador y usar estas opciones, sin pasos extra. <br>
+        También está la ventaja de que sea <b><i>bastante flexible</i></b> (por lo de "débilmente tipado"), aunque a veces esa misma flexibilidad te puede jugar en contra <br>
+        y puedes terminar con errores. Otra cosa que se puede considerar bastante útil es la <b>validación de formularios</b> que mencioné antes: <br>
+        Sería tedioso enviar todo al servidor solo para que te digan que el correo está mal escrito o debe estar en minúsculas. <br>
+        Con JS sucesos similares se hacen <i>al instante</i>, facilitando la interacción con el usuario. <br>
+        Aunque parece complejo es <b>indispensable en las páginas web</b> y su funcionamiento actual, pues hoy en día casi todas las páginas son interactivas <br>
+        tanto por necesidad como por popularidad. <br>
+    </p>
+        <img src="Imagenes sobre JavaScript/Reflexión JavaScript.png" alt="HTML1" width="600" height="200">
+    <h2>Conclusión <i>(´▽`ʃ♡ƪ)</i></h2>
+    <hr>
+    
+    <p>
+        En resumen, <b>JavaScript es el lenguaje que le da interactividad y dinamismo</b> a las páginas web, permitiendo que los usuarios no solo vean contenido, <br>
+        sino que también <i>interactúen con él</i>. Nació por la necesidad de tener un lenguaje del lado del cliente en los tiempos del internet lento, <br>
+        y hoy es <b>indispensable para cualquier desarrollador web</b>. Con sus variables, condicionales, bucles, funciones, eventos y objetos, <br>
+        puedes crear desde cosas simples como botones hasta páginas completas llenas de interactividad. <br>
+        En la actualidad <b><i>todos los navegadores lo soportan</i></b> y es el único lenguaje nativo de estos mismos. <br>
+        Es imposible negar que JavaScript se volvió <b>un antes y un después</b> en el mundo del desarrollo web, así como en la experiencia de usuario. <br>
+    </p>
+        <img src="Imagenes sobre JavaScript/Conclusion JavaScript.png" alt="HTML1" width="600" height="200">
+    </div>
+</body>
+</html>

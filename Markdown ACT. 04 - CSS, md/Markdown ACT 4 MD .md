@@ -24,6 +24,6 @@ La realidad es que **CSS** parece ser ***muy útil***, puesto que les brinda una
 ![Imagen de reflexion CSS](Imagenes%20sobre%20CSS/Reflexion%20CSS.png)
 
 ## Conclusión (oﾟvﾟ)ノ
-En resumen, CSS es una herramienta **fundamental para cualquier persona que quiera hacer páginas web atractivas y funcionales**, porque permite separar el estilo del contenido, *facilita el mantenimiento del sitio y ha evolucionado un mucho desde los años 70 hasta llegar a CSS3*, que hoy en día nos da un control enorme sobre el diseño. Aunque al principio los navegadores parecia no se ponían de acuerdo, ahora se considera que ya casi todos lo soportan bien, y eso hace que la experiencia de ***navegar sea mucho más uniforme,*** asi como la de crear dichas paginas web
+En resumen, CSS es una herramienta **fundamental para cualquier persona que quiera hacer páginas web atractivas y funcionales**, porque permite separar el estilo del contenido, *facilita el mantenimiento del sitio y ha evolucionado un mucho desde los años 70 hasta llegar a CSS3*, que hoy en día nos da un control enorme sobre el diseño. Aunque al principio los navegadores parecia no se ponían de acuerdo, ahora se considera que ya casi todos lo soportan bien, y eso hace que la experiencia de ***navegar sea mucho más uniforme,*** asi como la de crear dichas paginas web.
 
 ![Imagen de conclusion CSS](Imagenes%20sobre%20CSS/Conclusion%20CSS.png)
